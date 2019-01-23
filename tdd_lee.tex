@@ -1,0 +1,537 @@
+%%%%%%%%%%%%  Generated using docx2latex.com  %%%%%%%%%%%%%%
+
+%%%%%%%%%%%%  v2.0.0-beta  %%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[backend=biber,
+style=numeric,
+sorting=none,
+isbn=false,
+doi=false,
+url=false,
+]{biblatex}\addbibresource{bibliography.bib}
+
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{wasysym}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{ragged2e}
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{changepage}
+\usepackage{setspace}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{tabto}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[hidelinks]{hyperref}
+\usetikzlibrary{shapes.symbols,shapes.geometric,shadows,arrows.meta}
+\tikzset{>={Latex[width=1.5mm,length=2mm]}}
+\usepackage{flowchart}\usepackage[paperheight=11.69in,paperwidth=8.27in,left=0.98in,right=0.98in,top=0.98in,bottom=0.98in,headheight=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\TabPositions{0.49in,0.98in,1.47in,1.96in,2.45in,2.94in,3.43in,3.92in,4.41in,4.9in,5.39in,5.88in,}
+
+\urlstyle{same}
+
+
+ %%%%%%%%%%%%  Set Depths for Sections  %%%%%%%%%%%%%%
+
+% 1) Section
+% 1.1) SubSection
+% 1.1.1) SubSubSection
+% 1.1.1.1) Paragraph
+% 1.1.1.1.1) Subparagraph
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+ %%%%%%%%%%%%  Set Depths for Nested Lists created by \begin{enumerate}  %%%%%%%%%%%%%%
+
+
+\setlistdepth{9}
+\renewlist{enumerate}{enumerate}{9}
+		\setlist[enumerate,1]{label=\arabic*)}
+		\setlist[enumerate,2]{label=\alph*)}
+		\setlist[enumerate,3]{label=(\roman*)}
+		\setlist[enumerate,4]{label=(\arabic*)}
+		\setlist[enumerate,5]{label=(\Alph*)}
+		\setlist[enumerate,6]{label=(\Roman*)}
+		\setlist[enumerate,7]{label=\arabic*}
+		\setlist[enumerate,8]{label=\alph*}
+		\setlist[enumerate,9]{label=\roman*}
+
+\renewlist{itemize}{itemize}{9}
+		\setlist[itemize]{label=$\cdot$}
+		\setlist[itemize,1]{label=\textbullet}
+		\setlist[itemize,2]{label=$\circ$}
+		\setlist[itemize,3]{label=$\ast$}
+		\setlist[itemize,4]{label=$\dagger$}
+		\setlist[itemize,5]{label=$\triangleright$}
+		\setlist[itemize,6]{label=$\bigstar$}
+		\setlist[itemize,7]{label=$\blacklozenge$}
+		\setlist[itemize,8]{label=$\prime$}
+
+
+
+ %%%%%%%%%%%%  Header here  %%%%%%%%%%%%%%
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{ Tutoriel Type Driven Development\tab \tab Master 2 PLS – Institut Galiée}
+\cfoot{ Lynda OUDJEDI\tab \tab 6
+\vspace{\baselineskip}
+}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\topsep}{0pt}\setlength{\parskip}{8.04pt}
+\setlength{\parindent}{0pt}
+
+ %%%%%%%%%%%%  This sets linespacing (verticle gap between Lines) Default=1 %%%%%%%%%%%%%%
+
+
+\renewcommand{\arraystretch}{1.3}
+
+\title{Tutoriel Type Driven Development }
+\date{}
+
+
+%%%%%%%%%%%%%%%%%%%% Document code starts here %%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+\maketitle
+\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{table}[H]
+ 			\centering
+\begin{tabular}{p{6.1in}}
+%row no:1
+\multicolumn{1}{p{6.1in}}{
+	\begin{Center}
+		\includegraphics[width=6.1in,height=2.45in]{./media/image1.jpeg}
+	\end{Center}
+ \par } \\
+\hhline{~}
+
+\end{tabular}
+ \end{table}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 ends here %%%%%%%%%%%%%%%%%%%%
+
+\begin{Center}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\textit{Emission du 23/01/2019}}\par}
+\end{Center}\par
+
+\par 
+ \begin{tikzpicture}
+
+
+% Error occured here... ignoring it.
+\begin{FlushLeft}
+Professeur : M. Pierre BOUDES
+\end{FlushLeft}
+\end{tikzpicture}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+
+ %%%%%%%%%%%%  Starting New Page here %%%%%%%%%%%%%%
+
+\newpage
+
+\vspace{\baselineskip}\setlength{\parskip}{6.0pt}
+\begin{adjustwidth}{0.25in}{0.0in}
+\section*{Indroduction à la programmation fonctionnelle}
+\addcontentsline{toc}{section}{Indroduction à la programmation fonctionnelle}
+\end{adjustwidth}
+
+La programmation fonctionnelle utilise des langages de programmation tels que :\par
+
+\setlength{\parskip}{8.04pt}
+Lisp ;\par
+
+Ocaml ;\par
+
+Haskell\par
+
+Inspiré du lambda calcul, le principe général de la programmation fonctionnelle est de concevoir des programmes comme des fonctions mathématiques que l'on compose entre elles.\textcolor[HTML]{212121}{ }\par
+
+\textcolor[HTML]{212121}{L'un des principes fondamentaux de la programmation fonctionnelle consiste à écrire dans nos applications pour que le noyau soit constitué de fonctions pures plus faciles à raisonner, à combiner, à tester, à déboguer et à paralléliser}. \par
+
+Tandis que les effets secondaires se situe dans une couche externe mince. Les fonctions pures et les programmes fonctionnels sont bâtis sur des expressions dont la valeur est le résultat du programme.\par
+
+\section*{Fonction pure}
+\addcontentsline{toc}{section}{Fonction pure}
+Une fonction pure est une fonction mathématique simple à raisonner, répétable et composable, où sa sortie ne dépend que de son entrée. Sa valeur de retour est la même pour les mêmes arguments à chaque appel. Son évaluation n’a pas d’effets de bord c’est à dire qu’elle n’utilise que ces paramètres et qu’elle ne change pas les variables globales dans le programme ni les arguments mutables de type référence ou de flux d’entrée-sortie.\par
+
+Les fonctions pures contribuent également à l’optimisation des performances grâce à leurs caractéristiques de transparence référentielle et de mémorisation.\par
+
+Exemple :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=7.09in,height=0.38in]{./media/image2.PNG}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+En utilisant «.length() » dans une fonction elle reste pure alors que si l’on utilise « .random() » la fonction devient impur.\par
+
+\section*{Fonction impure}
+\addcontentsline{toc}{section}{Fonction impure}
+Contrairement aux fonctions pures les fonctions impures peuvent utiliser une ou plusieurs variables qui se trouvent hors du contexte de c’est fonction. On aurait donc pu changer leurs valeurs au risque de créer un comportement imprévu dans la suite du programme. Cette manipulation des données crée des effets de bord.\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 2 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+\advance\leftskip 0.24in		\includegraphics[width=7.09in,height=0.41in]{./media/image3.PNG}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 2 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+En entrant plus dans les détails, on peut définir les effets de bord comme l’utilisation (en lecture ou écriture), par une fonction, de toute variable qui est en dehors de son contexte local. Ce contexte se limite\par
+
+Mais aussi de :\par
+
+Modifier une structure de données en place ;\par
+
+Définir un champ sur un objet\par
+
+Lancer une exception ou arrêter avec une erreur ;\par
+
+Imprimer sur la console ou lire les entrées de l’utilisateur ;\par
+
+Lire ou écrire dans un fichier.\par
+
+
+\vspace{\baselineskip}
+\begin{enumerate}
+	\item Néanmoins on peut se poser la question :\par
+
+\begin{Center}
+\textbf{Comment allons-nous réussir à implémenter un programme si on s’interdit tout effet de bord ?}
+\end{Center}\par
+
+La réponse est que la programmation fonctionnelle est une restriction sur la façon dans nous écrivons un programme mais pas sur les programmes que nous pouvons exprimer.\par
+
+
+\end{enumerate}\section*{La transparence référentielle}
+\addcontentsline{toc}{section}{La transparence référentielle}
+On dit qu’une fonction est préférentiellement transparente si elle peut être remplacer par sa valeur sans changer le programme. On utilise la transparence référentielle en programmation fonctionnelle sur des fonctions pures car leurs valeurs ne changent pas. On remplace chaque fonction par son résultat final dans la suite du programme comme pour la résolution d’une équation algébrique.\par
+
+Exemple :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 3 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=7.09in,height=0.5in]{./media/image4.PNG}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 3 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+Ou simplement si on a : \par
+
+scala\ > val  x = 5 + 2 \par
+
+Ici on impose x dans notre programme qui peut être remplacer par 7 sans changer le déroulement du programme ni son résultat final.\par
+
+\section*{Type Driven Development}
+\addcontentsline{toc}{section}{Type Driven Development}
+\subsection*{Définition }
+\addcontentsline{toc}{subsection}{Définition }
+Le type Driven Development (TDD) est la conséquence de certaines libertés que s’autorise un développeur Notamment celle d’écrire en fonctionnel pur dans des langages fortement typés tel qu’en :\par
+
+JAVA ;\par
+
+C++ ;\par
+
+SCALA$ \ldots $ \par
+
+Il suffit de comprendre exactement :\par
+
+Ce que fait la fonction\par
+
+Ce qu’elle prend comme argument ;\par
+
+La valeur de retour si elle existe autrement dit connaitre la signature de la fonction afin de produire un code qui respect la notion de pureté et la transparence référentielle.\par
+
+
+\vspace{\baselineskip}
+\subsection*{Exemples du TDD}
+\addcontentsline{toc}{subsection}{Exemples du TDD}
+\subsubsection*{En java }
+\addcontentsline{toc}{subsubsection}{En java }
+Habituellement on définit des méthodes tel que :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 4 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=7.09in,height=0.34in]{./media/image5.PNG}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 4 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+On voit que la variable « score » dans cet exemple va être modifié en faisant appel à la fonction incrementeScore risquant de créer des bugs par la suite sans oublier que la class ‘player’ hérite probablement d’une autre class ce qui crée du code très peu compréhensible et dur à analyser. \par
+
+Une des manières de coder proprement cette fonction est de l’écrire en fonctionnel :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 5 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=7.09in,height=0.21in]{./media/image6.PNG}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 5 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+IncrementMe est une fonction qui prend un entier en argument (initialScore) et retourne une fonction, prenant elle-même un entier en paramètre (increment) et sommant le tout.\par
+
+Ce qui nous permet d’éviter de créer des liens entre la méthode et la fonction et surtout on voit bien que la fonction ne change pas les paramètres de la méthode contrairement à la programmation impérative ou orienté l’objet et on peut la rappeler autant qu’on veut dans le programme en utilisant simplement « incremetMe() ».\par
+
+\subsubsection*{En scala}
+\addcontentsline{toc}{subsubsection}{En scala}
+Additionner et multiplier des variables en scala en utilisant la pureté des fonctions :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 6 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}[H]	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image7.png}
+	\end{subfigure}
+~	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image8.png}
+	\end{subfigure}
+~
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 6 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}
+	\item \par
+
+Composition de deux fonction g(f(x)) :\par
+
+Autre méthode pour écrire la composition de fonctions :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 7 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}[H]	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image9.png}
+	\end{subfigure}
+~	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image10.png}
+	\end{subfigure}
+~
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 7 Ends here %%%%%%%%%%%%%%%%%%%%
+
+Calculer (X$\ast$ X) + (Y$\ast$ Y)\par
+
+
+\vspace{\baselineskip}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 8 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{FlushLeft}		\includegraphics[width=7.09in,height=1.58in]{./media/image11.png}
+	\end{FlushLeft}\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 8 Ends here %%%%%%%%%%%%%%%%%%%%
+
+Calculer la valeur absolue d’un nombre n avec la fonction « abs » et l’afficher en utilisant la méthode ‘format’ définit dans la librairie standard ‘ONSTRING’\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 9 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{FlushLeft}		\includegraphics[width=7.09in,height=1.0in]{./media/image12.png}
+	\end{FlushLeft}\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 9 Ends here %%%%%%%%%%%%%%%%%%%%
+
+Calculer la factoriel d’un nombre n:\textcolor[HTML]{FFFFFF}{ -}\par
+
+
+\vspace{\baselineskip}
+\setlength{\parskip}{0.0pt}
+\setlength{\parskip}{8.04pt}
+Afficher le résultat d’une fonction en utilisant une fonction d’affichage :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 10 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{FlushLeft}		\includegraphics[width=7.09in,height=0.69in]{./media/image13.png}
+	\end{FlushLeft}\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 10 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parskip}{0.0pt}
+\par
+
+\setlength{\parskip}{8.04pt}
+Utilisation des listes en scala pur\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 11 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{FlushLeft}		\includegraphics[width=7.09in,height=1.48in]{./media/image14.png}
+	\end{FlushLeft}\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 11 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parskip}{0.0pt}
+\par
+
+
+\vspace{\baselineskip}
+\setlength{\parskip}{8.04pt}
+Les exceptions en scala pur :\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 12 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=7.09in,height=1.3in]{./media/image15.png}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 12 Ends here %%%%%%%%%%%%%%%%%%%%
+
+	\item \par
+
+\setlength{\parskip}{0.0pt}
+\begin{FlushLeft}
+Ou {\fontsize{10pt}{12.0pt}\selectfont :\par}
+\end{FlushLeft}\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 13 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{FlushLeft}		\includegraphics[width=7.09in,height=1.01in]{./media/image16.png}
+	\end{FlushLeft}\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 13 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+\begin{FlushLeft}
+Ou:
+\end{FlushLeft}\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 14 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{FlushLeft}		\includegraphics[width=7.09in,height=1.46in]{./media/image17.png}
+	\end{FlushLeft}\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 14 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+\setlength{\parskip}{8.04pt}
+
+\end{enumerate}\section*{Conclusion }
+\addcontentsline{toc}{section}{Conclusion }
+Ce tutoriel m’a permis d’approfondir mes connaissances sur le langage fonctionnel que j’avais acquise lors de mon cursus. J’ai pu expliciter sa définition et sa fonction notamment pour les fonctions pures, et la transparence référentielle. Par ailleurs j’ai pu intégrer certaines notions de base en Scala et d’assimiler le Type Driven Development.\par
+
+Ainsi pour la suite j’utiliserai mon tutoriel afin de produire un code fonctionnel palliant les erreurs de bases tout en fournissant un code ergonomique.\par
+
+Vous trouverez le code de mon projet sur mon github en \href{https://github.com/LyndaOudjedi/TDD}{cliquant ici}\par
+
+
+\vspace{\baselineskip}
+\setlength{\parskip}{0.0pt}
+
+\vspace{\baselineskip}
+\setlength{\parskip}{8.04pt}
+
+\vspace{\baselineskip}
+
+\printbibliography
+\end{document}
